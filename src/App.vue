@@ -8,8 +8,8 @@ const loading = ref(false)
 const errorMsg = ref('')
 
 // 后端接口地址（本地开发阶段直连）
-const MAIN_API = 'http://localhost:8080'
-const CLIENT_API = 'http://localhost:8081'
+const MAIN_API = ''
+const CLIENT_API = ''
 
 // 调用主服务 /health
 async function fetchHealth() {
